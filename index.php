@@ -56,7 +56,20 @@ th {
     $resultCheck = mysqli_num_rows($result);
             echo "<table>";
             //Follow this same format to make a new row. Make the Columns the same order as listed for the mysql fetch below
-            echo "<tr><th>Identifier</th><th>License</th><th>Name</th><th>Money</th><th>Bankbalance</th><th>Job</th><th>Permission</th><th>Group</th><th>Gun License</th><th>Guns</th><th>Position</th></tr>";
+                   echo "<tr>
+                    <th>Identifier</th>
+                    <th>License</th>
+                    <th>Name</th>
+                    <th>Money</th>
+                    <th>Bankbalance</th>
+                    <th>Job</th>
+                    <th>Permission</th>
+                    <th>Group</th>
+                    <th>Gun License</th>
+                    <th>Guns</th>
+                    <th>Position</th>
+                </tr>";
+ 
     if ($resultCheck > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
             echo "<tr><th>";

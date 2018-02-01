@@ -8,6 +8,6 @@ Open to edit. to your liking except for the copyright, do not modify it.
 
 -To access the WebDB, you have to go to your web browser and type localhost. If you have it on a different system, use that system's internal ip address, or external ip address.
 
--More information on the forum https://forum.fivem.net/t/release-essentialmode-base/3665
+-More information on the forum https://forum.fivem.net/t/release-webdatabase-viewer/
   
  
